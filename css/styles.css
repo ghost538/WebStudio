@@ -316,7 +316,7 @@ button {
   content: "";
   position: absolute;
   display: block;
-  top: 46px;
+  top: 47px;
   width: 100%;
   height: 4px;
   background: #404bbf;
@@ -348,6 +348,7 @@ button {
   padding-bottom: 112px;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: var(--main-dark-color);
 }
 
 .hero-btn-center {
@@ -1181,6 +1182,7 @@ button {
   min-width: 169px;
   text-align: center;
   margin-left: 100px;
+  margin-right: 100px;
   transition: background-color var(--function), box-shadow var(--function);
 }
 .modal-btn:is(:focus, :hover) {
