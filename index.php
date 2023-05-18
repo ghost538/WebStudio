@@ -1,7 +1,7 @@
 <?php
 $servername = '127.0.0.1';
 $username = 'root';
-$password = '1910';
+$password = 'password';
 $dbname = 'webstudio';
 
 // создаем соединение с базой данных
